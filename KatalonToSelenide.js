@@ -303,10 +303,10 @@ function convertKatalonToSelenide(command, target, value){
         case "assertTitle":
         case "verifyTitle":
             //assert the page's title tag
-            return 'assertEquals("' + value + '", title());';
+            return 'assertEquals("' + target + '", title());';
         case "assertNotTitle":
         case "verifyNotTitle":
-            return 'assertNotEquals("' + value + '", title());';          
+            return 'assertNotEquals("' + target + '", title());';          
             
         case "assertValue": 
         case "verifyValue":       
