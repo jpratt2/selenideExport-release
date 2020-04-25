@@ -536,7 +536,7 @@ function formatTarget(target){
         target = '$(By.name("' + target + '"))';
     }else if(/^xpath=/.test(target) || /^[/]/.test(target)){
         target = target.replace("xpath=","");
-        target = '$(By.xpath("' + target + '"))';
+        target = '$x("' + target + '")';
     }else if(/^link=/.test(target)){
         target = target.replace("link=","");
         target = '$(By.linkText("' + target + '"))';
