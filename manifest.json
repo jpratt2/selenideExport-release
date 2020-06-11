@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Selenide Exporter for Katalon Recorder",
     "description": "Export Katalon Recorder browser actions to the Selenide Framework",
-    "version": "1.1",
+    "version": "1.2",
     "icons": { 
         "16": "logo_selenide_16.png",
         "32": "logo_selenide_32.png",

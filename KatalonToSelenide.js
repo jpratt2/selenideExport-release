@@ -540,6 +540,9 @@ function formatTarget(target){
     }else if(/^link=/.test(target)){
         target = target.replace("link=","");
         target = '$(By.linkText("' + target + '"))';
+    }else if(/^css=/.test(target)){
+        target = target.replace("css=","");
+        target = '$("' + target + '")';
     }
     return target;
 }
