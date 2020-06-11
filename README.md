@@ -5,10 +5,7 @@ MIT license
 You can download Katalon Recorder at https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid
 Selenide is available at selenide.org.
 
-
-Version 1.1 
-Release notes: adds better functionality for xpath syntax, x$().
-Special thanks to Tomoo M.
+version 1.2
 
 
 /*
@@ -31,3 +28,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+
+Version 1.1 
+Release notes: adds better functionality for xpath syntax, x$().
+Special thanks to Tomoo M.
+
+Version 1.2
+Release notes: adds css= functionality
+Special thanks to Jozef M
